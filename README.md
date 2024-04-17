@@ -1,9 +1,3 @@
-# Simple_RSA
+# Simple_Chacha20
 
-RSA (Rivest–Shamir–Adleman) is a public-key cryptosystem, one of the oldest widely used for secure data transmission. The initialism "RSA" comes from the surnames of Ron Rivest, Adi Shamir and Leonard Adleman, who publicly described the algorithm in 1977. An equivalent system was developed secretly in 1973 at Government Communications Headquarters (GCHQ), the British signals intelligence agency, by the English mathematician Clifford Cocks. That system was declassified in 1997.[2]
-
-In a public-key cryptosystem, the encryption key is public and distinct from the decryption key, which is kept secret (private). An RSA user creates and publishes a public key based on two large prime numbers, along with an auxiliary value. The prime numbers are kept secret. Messages can be encrypted by anyone, via the public key, but can only be decoded by someone who knows the private key.[1]
-
-The security of RSA relies on the practical difficulty of factoring the product of two large prime numbers, the "factoring problem". Breaking RSA encryption is known as the RSA problem. Whether it is as difficult as the factoring problem is an open question.[3] There are no published methods to defeat the system if a large enough key is used.
-
-RSA is a relatively slow algorithm. Because of this, it is not commonly used to directly encrypt user data. More often, RSA is used to transmit shared keys for symmetric-key cryptography, which are then used for bulk encryption–decryption. 
+ChaCha20 is a widely-used symmetric encryption algorithm designed by Daniel J. Bernstein. It is known for its speed and security, making it a popular choice for various cryptographic applications. ChaCha20 operates on 256-bit blocks and supports key lengths of 128, 256, or 512 bits. It is particularly well-suited for use in scenarios where performance is crucial, such as in real-time communication protocols and disk encryption. ChaCha20 is also resistant to certain types of cryptanalytic attacks, providing strong security guarantees. Overall, ChaCha20 is a versatile and efficient encryption algorithm that is widely adopted in modern cryptographic systems.
