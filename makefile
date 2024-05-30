@@ -28,7 +28,7 @@ UNAME_S := $(shell uname -s)
 
 CXXFLAGS = -lm -lrt -std=c++11 -I$(IMGUI_DIR)/eqapp -I$(IMGUI_DIR)/imgui -I$(IMGUI_DIR)/backends -I$(IMGUI_DIR)/implot   
 CXXFLAGS += -g -Wall -Wformat
-LIBS =  -lpthread -lm -lcrypt -lrt -lncurses -lpigpio
+LIBS =  -lpthread -lm -lcrypt -lcrypto -lssl -lrt -lncurses
 
 ##--------------------------------------------------------------------- -lwiringPi -lwiringPiDev
 ## BUILD FLAGS PER PLATFORM
